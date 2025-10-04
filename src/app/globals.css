@@ -89,7 +89,7 @@
 }
   
 
-.backdrop-blur__safari {
+.backdrop--blur__safari {
   -webkit-backdrop-filter: blur($px);
 }
 
