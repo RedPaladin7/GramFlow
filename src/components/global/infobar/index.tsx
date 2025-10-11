@@ -13,6 +13,7 @@ import Sheet from '../sheet'
 import Items from '../sidebar/items'
 import UpgradeCard from '../sidebar/upgrade'
 import { SubscriptionPlan } from '../subscription-plan'
+import MainBreadCrumb from '../main-bread-crumb'
 
 type Props = {
     slug: string
@@ -59,6 +60,7 @@ const InfoBar = ({slug}: Props) => {
                 <CreateAutomation/>
                 <Notifications/>
             </div>
+            <MainBreadCrumb page={page===slug ? 'Home': page} slug={slug}/>
         </div>
     )
 }

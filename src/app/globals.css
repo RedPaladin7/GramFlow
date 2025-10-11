@@ -121,7 +121,7 @@ scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
   background-image: radial-gradient(
     ellipse farthest-side,
     rgba(51, 82, 204, 0.15) 20%,
-    #90a6ec 100%
+    #09090b 100%
   );
   background-size: 100% 100%;
   background-repeat: no-repeat;

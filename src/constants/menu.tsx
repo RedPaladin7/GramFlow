@@ -2,7 +2,7 @@ import { FastForward, House, Settings, Workflow } from "lucide-react"
 import React from "react"
 import {v4 as uuid} from 'uuid'
 
-type FieldProps = {
+export type FieldProps = {
     label: string 
     id: string 
 }
